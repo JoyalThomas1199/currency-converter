@@ -25,14 +25,19 @@ This is a Spring Boot application that utilizes a public API to provide real-tim
    git clone https://github.com/JoyalThomas1199/currency-converter.git
    ```
 
-2. Checkout to the `master` branch:
+2. Move to the project folder:
+   ```bash
+   cd currency-converter
+   ```
+
+3. Checkout to the `master` branch:
    ```bash
    git checkout master
    ```
 
-3. You need to log in to [Open Exchange Rates](https://openexchangerates.org/account).  
+4. You need to log in to [Open Exchange Rates](https://openexchangerates.org/account).  
    - Create a new API key by visiting [this link](https://openexchangerates.org/account/app-ids).  
-   - Copy the generated application key, as this will be required to fetch real-time currency data for the app.
+   - Copy the generated application key, as this will be required to fetch real-time currency data for the application.
 
 ## Building the Project
 To build the project, run the following command:
