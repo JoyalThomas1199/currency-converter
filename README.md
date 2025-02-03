@@ -22,5 +22,4 @@ Build the project: mvn clean package -Dcurrency.api.key=<API KEY GENERATED>
 run the jar: java -jar -Dcurrency.api.key=<API KEY GENERATED> target\currencyconverter-0.0.1-SNAPSHOT.jar
 Applicattion will be up and running here: http://localhost:8080/api/rates?base=USD
 
-
-
+API Documentations can be find here: http://localhost:8080/swagger-ui/index.html
