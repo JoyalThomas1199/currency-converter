@@ -10,6 +10,7 @@ Requirement: -java 17
              -Maven 3.9.9
 Installation: -Clone the repository -  bash
                                        git clone https://github.com/JoyalThomas1199/currency-converter.git
+                                       checkout to master branch: git checkout master
                                        cd currency-converter
 
 You need to login to https://openexchangerates.org/account
