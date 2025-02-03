@@ -9,9 +9,9 @@ Technologies Used: -Java 17
 Requirement: -java 17
              -Maven 3.9.9
 Installation: -Clone the repository -  bash
-                                       git clone https://github.com/JoyalThomas1199/currency-converter.git
-                                       git checkout master
-                                       checkout to master branch: git checkout master
+                                       Clone Repository: git clone https://github.com/JoyalThomas1199/currency-converter.git
+                                       Move to project folder: cd currency-converter
+                                       Checkout to the master branch: git checkout master
 
 You need to login to https://openexchangerates.org/account
 Then create a new api key using this URL: https://openexchangerates.org/account/app-ids to generate the application key to use in this application.
