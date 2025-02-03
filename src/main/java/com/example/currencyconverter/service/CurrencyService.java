@@ -8,12 +8,15 @@ import org.springframework.web.client.RestTemplate;
 
 import java.util.Map;
 
+
+
 @Service
 public class CurrencyService {
     private final RestTemplate restTemplate;
-    private final String API_KEY = "feffb123ce0949c8b868ca3ba22a0c83";
+    private final String API_KEY = System.getProperty("currency.api.key");
     private final String API_URL = "https://openexchangerates.org/api/latest.json?app_id=" + API_KEY + "&base=";
 
+        
     public CurrencyService(RestTemplate restTemplate) {
         this.restTemplate = restTemplate;
     }
